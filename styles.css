@@ -98,7 +98,7 @@ hr{margin: 10px 10px;}
 
 .article-index {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
 }
 .article {
@@ -246,6 +246,7 @@ footer {
     width: 100%;
     flex-direction: column;
   }
+  .article-index{flex-wrap: wrap;}
 
   .bycountry{width:100%;}
 
@@ -300,6 +301,7 @@ footer {
   .article {
     width: 100%;
   }
+  .article-index{flex-wrap: wrap;}
   .bycountry{width:100%;}
 
   .paragraph-button button {
